@@ -1,7 +1,8 @@
+import os
 import time
 import requests
-
-BOT_TOKEN = "8829074599:AAGqPXyaS6HTr6Qkw-TADEHY8gXC-O_UWrA"
+ 
+BOT_TOKEN = os.environ["8829074599:AAGqPXyaS6HTr6Qkw-TADEHY8gXC-O_UWrA"]
 CHAT_ID = "1151138873"
 
 STEP = 50
